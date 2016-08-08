@@ -1,0 +1,22 @@
+	Infrastructure: Server
+	Full Domain Name			: localhost.soabpm-vm.(none)
+	Network: For all interfaces
+	Name 				: eth0 | 
+	IP Address			: 10.0.2.15 | 
+	Infrastructure: Hardware
+	Vendor					: innotek GmbH
+	Model                                   : VirtualBox
+	Virtual					: YES
+	CPU
+	Vendor				: Intel(R)
+	Name				: 
+	Processors and Cores		: 1 x 2
+	Architecture			: x86_64
+	Speed                                   : 1.70
+	RAM					: 	Hard Disk				: 
+
+Execution Time (yyyy/MM/dd HH:mm:ss): 2016/05/04 11:36:14
+Duration (milliseconds):              275
+UserTime (milliseconds):              440
+SystemTime (milliseconds):            30
+CpuTime (milliseconds):               470

@@ -1,0 +1,23 @@
+	Infrastructure: Server
+	Full Domain Name			: localhost.soabpm-vm.(none)
+	Network: For all interfaces
+	Name				: NULL
+
+	Infrastructure: Hardware
+	Vendor					: innotek GmbH
+	Model					: VirtualBox
+	Virtual					: YES
+	CPU
+	Vendor				: Intel(R)
+	Name				: Core(TM) i5-4210U
+	Processors and Cores		: 1 x 2
+	Architecture			: x86_64
+	Speed				: 1.70 Ghz
+	RAM					: 4 GiB
+	Hard Disk				: 20.0 GiB | 20.0 GiB | 30.0 GiB | 
+
+Execution Time (yyyy/MM/dd HH:mm:ss): 2016/05/07 19:21:39
+Duration (milliseconds):              243
+UserTime (milliseconds):              350
+SystemTime (milliseconds):            10
+CpuTime (milliseconds):               360

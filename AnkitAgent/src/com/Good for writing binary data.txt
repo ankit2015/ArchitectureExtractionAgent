@@ -1,0 +1,37 @@
+Good for writing binary data
+
+boolean append = true;
+		boolean autoFlush = true;
+		String charset = "UTF-8";
+		String filePath = "Report.txt";
+
+		java.io.File file = new java.io.File(filePath);
+		if(!file.exists())
+			try {
+				file.createNewFile();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}//mkdirs();
+		java.io.PrintWriter pw = null;
+		try {
+			java.io.FileOutputStream fos = new java.io.FileOutputStream(file, append);
+			java.io.OutputStreamWriter osw = new java.io.OutputStreamWriter(fos, charset);
+			java.io.BufferedWriter bw = new java.io.BufferedWriter(osw);
+			pw = new java.io.PrintWriter(bw, autoFlush);
+			pw.write("Something");
+		}
+		catch (java.io.FileNotFoundException e1) {
+			System.out.println("***** FILE NOT FOUND EXCEPTION *****");
+			Logger.getLogger(Class.class.getName()).log(Level.SEVERE, null, e1);
+			e1.printStackTrace();
+		}
+		catch (java.io.UnsupportedEncodingException e2) {
+			System.out.println("***** UNSUPPORTED ENCODING EXCEPTION *****");
+			Logger.getLogger(Class.class.getName()).log(Level.SEVERE, null, e2);
+			e2.printStackTrace();
+		}
+		finally
+		{
+			pw.close();
+		}
